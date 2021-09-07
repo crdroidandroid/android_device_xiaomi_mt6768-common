@@ -87,3 +87,9 @@ ro.zram.periodic_wb_delay_hours=24
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
 persist.dbg.wfc_avail_ovr=1
+
+# BLUR
+# Enable Blur, But Disable By Default, Blur Toggle Would Be in Settings --> Display --> Blur
+ro.surface_flinger.supports_background_blur=1
+ro.sf.blurs_are_expensive=1
+persist.sys.sf.disable_blurs=1
