@@ -15,6 +15,10 @@ ro.camera.sound.forced=0
 persist.camera.dualcal.state=-1
 ro.mtk_cam_stereo_camera_support=1
 
+# Cached app compaction
+persist.device_config.activity_manager.use_compaction=true
+
+
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
 
