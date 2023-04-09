@@ -2,5 +2,6 @@
 <carrier_config_list>
     <carrier_config gid1="6230" mcc="310" mnc="240">
         <boolean name="mtk_key_roaming_bar_guard_bool" value="true" />
+        <boolean name="hide_lte_plus_data_icon_bool" value="false"/>
     </carrier_config>
 </carrier_config_list>
