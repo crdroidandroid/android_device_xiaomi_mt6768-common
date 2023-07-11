@@ -2,6 +2,9 @@
 # system.prop for mt6768
 #
 
+# APEX
+ro.apex.updatable=false
+
 # Audio
 ro.audio.silent=0
 ro.config.vc_call_vol_steps=9
